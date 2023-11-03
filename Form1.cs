@@ -24,5 +24,13 @@ namespace maytinh
             double kq = a + b;
             tb_KQ.Text = kq.ToString();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double a = double.Parse(tb_a.Text);
+            double b = double.Parse(tb_b.Text);
+            double kq = a - b;
+            tb_KQ.Text = kq.ToString();
+        }
     }
 }
